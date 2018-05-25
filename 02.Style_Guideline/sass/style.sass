@@ -1,0 +1,125 @@
+$color_yellow: #ffb336
+$color_blue: #27232F
+$color_white: #f3f7f7
+$color_grey: #333333
+
+$font_basesize: 10px
+$max_width: 700px
+
+*
+  // border: solid 1px black
+  position: relative
+
+html,body
+  margin: 0px
+
+@mixin size($w,$h)
+  width: $w
+  height: $h
+  
+.max_width
+  max-width: $max_width
+  margin-left: auto
+  margin-right: auto
+  
+  
+  
+.content
+  font-family: Montserrat, 微軟正黑體
+  padding: 30px
+  
+  h5
+    margin-top: 5px
+    font-size: $font_basesize*1.6
+  .title_hr
+    border: solid 3px $color_yellow
+    width: 100px
+    
+  h1
+    font-size: $font_basesize*4
+  h2
+    font-size: $font_basesize*3
+  h3
+    font-size: $font_basesize*2
+  h1.english
+    font-size: $font_basesize*2.4
+  h2.english
+    font-size: $font_basesize*1.6
+  h3.english
+    font-size: $font_basesize*1.2
+  .english
+    margin-top: 20px
+  .color_chip
+    display: inline-block
+    margin-right: 10px
+    .color_tag, .color_block
+      vertical-align: middle
+      display: inline-block
+    .color_block
+      +size(50px,50px)
+      border: solid 2px
+    .block_yellow
+      background-color: $color_yellow
+    .block_blue
+      background-color: $color_blue
+    .block_white
+      background-color: $color_white 
+    .block_grey
+      background-color: $color_grey
+
+  .buttom
+    display: inline-block
+    padding: 10px 15px
+    letter-spacing: 1px
+    font-size: $font_basesize*1.6
+    font-weight: 700
+    margin-right: 5px
+    border: solid 1px white
+  .buttom_blue
+    background-color: $color_blue
+    color: $color_white
+    font-weight: 400
+  .buttom_yellow
+    background-color: $color_yellow
+    color: $color_blue
+    
+.content_grey
+  background-color: $color_grey
+  color: $color_white
+  .english
+    color: $color_yellow
+  h1, h2, h3
+    font-weight: 500
+    
+.content_blue
+  background-color: $color_blue
+  color: $color_white
+  .english
+    color: $color_yellow
+  h1, h2, h3
+    font-weight: 500
+    
+.content_white
+  background-color: $color_white
+  color: $color_blue
+  .english
+    color: $color_yellow
+  h1, h2, h3
+    font-weight: 500
+  .buttom
+    border: solid 1px black
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+  
+
+
