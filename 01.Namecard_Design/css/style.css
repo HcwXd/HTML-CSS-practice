@@ -1,0 +1,95 @@
+* {
+  /*   border: solid 1px black; */
+  font-family: 微軟正黑體;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #d1d1d1;
+  border-top: solid 10px #f24;
+  border-bottom: solid 10px #f24;
+  box-sizing: border-box;
+  overflow: hidden
+}
+
+.namecard {
+  width: 350px;
+  height: 200px;
+  padding: 30px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 150px;
+  /*   margin-bottom: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 2px;
+  font-weight: 500;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #eee;
+  border: solid 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+.namecard h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.namecard h2 span {
+  font-size: 15px;
+}
+
+.namecard h5 {
+  font-size: 17px;
+  color: #f24;
+}
+
+.namecard p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: solid 3px #f24;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle1 {
+  right: 50px;
+  bottom: -70px;
+  background-color: #f24
+}
+
+.circle2 {
+  top: -60px;
+  right: -60px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+.mark {
+  font-size: 300px;
+  font-weight: 100;
+  position: absolute;
+  bottom: 100px;
+  color: rgba(0, 0, 0, 0.09)
+  /*   text-align: center; */
+}
