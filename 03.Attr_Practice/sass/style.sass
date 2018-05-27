@@ -1,0 +1,34 @@
+@mixin size($w, $h)
+  width: $w
+  height: $h
+
+*
+  border: solid 1px black
+  background-color: #666
+
+
+div
+  padding: 5px
+  margin: 5px
+  &::before
+    content: "-"attr(data-size)"-"
+  &::after
+    content: "!"attr(data-color)"!"
+  
+  
+  
+  
+
+div[data-size = 'small']
+  +size(150px, 50px)
+div[data-size = 'medium']
+  +size(300px, 100px)
+div[data-size = 'large']
+  +size(450px,150px)
+  
+div[data-color = 'red']
+  border: solid 4px red
+div[data-color = 'blue']
+  border: solid 4px blue
+div[data-color = 'green']
+  border: solid 4px green
