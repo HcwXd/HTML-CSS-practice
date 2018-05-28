@@ -20,3 +20,9 @@
 > `Html` `Css` `Attr` 
 >
 > Demo: [03.Attr_Practice](https://hcwxd.github.io/HTML-CSS-practice/03.Attr_Practice/index.html)
+
+### LINE 切版簡單練習
+
+> `Html` `Css` 
+>
+> Demo: [04.LINE_Simple_Wrap](https://hcwxd.github.io/HTML-CSS-practice/04.LINE_Simple_Wrap/index.html)
