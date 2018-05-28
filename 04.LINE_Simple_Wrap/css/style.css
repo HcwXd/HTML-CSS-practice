@@ -1,0 +1,46 @@
+* {
+  position: relative; }
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #eee; }
+
+.phone {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  border: solid 1px #888;
+  border-radius: 4px; }
+  .phone .top {
+    width: 100%;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kacpuN0utTMVHVLk4UgcgIavl-3Uj2_4qSu65M9YZI6LvRwzAQ");
+    background-size: cover;
+    background-position: center center; }
+  .phone .headpic {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397_960_720.png");
+    background-size: cover;
+    border: solid 2px #999; }
+    .phone .headpic .name {
+      right: -100px;
+      top: 10px;
+      color: white;
+      letter-spacing: 2px;
+      font-weight: 100;
+      text-align: center;
+      background-color: rgba(200, 0, 0, 0.5); }
+  .phone .bottom {
+    width: 100%;
+    height: 200px;
+    background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
