@@ -1,0 +1,51 @@
+.body, html
+  background-color: #888
+  height: 100%
+  width: 100%
+
+.cross
+  border: solid 2px
+  width: 200px
+  height: 200px
+  position: relative
+  background-color: rgba(200,30,30,0.7)
+  left: 50%
+  top: 250px
+  transform: translateX(-50%)
+  
+  &:hover
+    .line1, .line2
+      background-color: rgba(0,0,0,0.5)
+    .line1
+      width: 1700px
+      transform: translateX(-50%) translateY(-50%) rotate(135deg)
+    .line2
+      width: 1700px
+      transform: translateX(-50%) translateY(-50%) rotate(-135deg)
+  &:active
+    .line1, .line2
+      background-color: rgba(0,0,0,0)
+    .line1
+      width: 170px
+      transform: translateX(-50%) translateY(-50%) rotate(-135deg)
+    .line2
+      width: 170px
+      transform: translateX(-50%) translateY(-50%) rotate(135deg)
+      
+    
+  
+  .line1, .line2
+    background-color: rgba(0,0,0,1)
+    border: solid 2px
+    width: 130px
+    height: 10px
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-50%)
+    transition-duration: 0.5s
+  .line1
+    transform: translateX(-50%) translateY(100%)
+  .line2
+    transform: translateX(-50%) translateY(-100%)
+    
