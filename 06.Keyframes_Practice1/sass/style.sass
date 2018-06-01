@@ -1,0 +1,133 @@
+@mixin size($w, $h)
+  height: $h
+  width: $w
+*
+  border: solid 1px black
+
+body, html
+  margin: 0px
+  padding: 0px
+  height: 100%
+  width: 100%
+
+.box
+  +size(900px, 500px)
+  position: relative
+  animation: box1 30s infinite
+
+.block
+  +size(50px,50px)
+  position: absolute
+
+.block1
+  bottom: 0px
+  left: 50px
+  animation: anim1 1s infinite
+.block2
+  bottom: 0px
+  left: 200px
+  animation: anim2 4s infinite
+.block3
+  bottom: 0px
+  left: 350px 
+  animation: anim3 5s infinite
+.block4
+  bottom: 0px
+  left: 500px 
+  animation: anim4 1s infinite
+.block5
+  bottom: 0px
+  left: 650px
+  animation: anim5 4s infinite
+
+  
+@keyframes anim1
+  0%
+    bottom: 100px
+  25%
+    background-color: rgba(200,0,0,0.3)
+  50%
+    background-color: rgba(200,0,0,0.7)
+    bottom: 0px
+  75%
+    background-color: rgba(200,0,0,1) 
+  100%
+    bottom: 100px
+  
+@keyframes anim2
+  0%
+    bottom: 100px
+  25%
+    background-color: rgba(200,200,0,0.3)
+    transform: rotate(-360deg)
+  50%
+    background-color: rgba(200,0,0,0.7)
+    transform: rotate(10000deg)
+    bottom: 0px
+  75%
+    background-color: rgba(200,0,200,1) 
+    transform: rotate(0deg)
+  100%
+    bottom: 100px
+    transform: rotate(90deg)
+  
+  
+@keyframes anim3
+  0%
+    transform: scale (1)
+    // transform: translateX(0px) translateY(0px)
+    // transform: rotate(0deg)
+  25%
+    transform: scale (0.5)
+    // transform: translateX(100px) translateY(10px)
+    // transform: rotate(0deg)
+  50%
+    transform: scale(0.1) translateX(100px) translateY(0px)
+    // transform: translateX(0px) translateY(0px)
+    // transform: rotate(110deg)
+  75%
+    transform: scale(0.5)
+    // transform: translateX(0px) translateY(0px)
+    // transform: rotate(0deg)
+  100%
+    transform: scale(1)
+    // transform: translateX(0px) translateY(0px)
+    // transform: rotate(0deg)
+  
+@keyframes anim4
+  0%
+    transform: scale(1) translateX(0px) translateY(0px) rotate(90deg)
+
+  25%
+    transform: scale(0.5) translateX(100px) translateY(0px) rotate(180deg)
+  50%
+    transform: scale(1.5) translateX(0px) translateY(-100px) rotate(270deg)
+  75%
+    transform: scale(0.25) translateX(100px) translateY(-100px) rotate(360deg)
+  100%
+    transform: scale(2) translateX(0px) translateY(0px) rotate(0deg)
+  
+@keyframes anim5
+  0%
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+  25%
+    transform: rotateX(135deg) rotateY(135deg) rotateZ(135deg)
+  50%
+    transform: rotateX(0deg) rotateY(135deg) rotateZ(135deg)
+  75%
+    transform: rotateX(135deg) rotateY(0deg) rotateZ(135deg)
+  100%
+    transform: rotateX(135deg) rotateY(135deg) rotateZ(0deg)
+
+  
+  
+  
+  
+@keyframes box1
+  0%
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+  50%
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+  100%
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+    
