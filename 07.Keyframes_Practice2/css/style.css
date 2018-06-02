@@ -1,0 +1,149 @@
+* {
+  border: solid 1px;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box1 4s infinite;
+  animation-timing-function: steps(2);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box2 4s infinite;
+  animation-timing-function: steps(4);
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box1 4s infinite;
+  animation-timing-function: steps(8);
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box2 4s infinite;
+  animation-timing-function: steps(16);
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box1 4s infinite;
+  animation-timing-function: steps(32);
+}
+
+.box6 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: box2 4s infinite;
+  animation-timing-function: ease;
+}
+
+.block1 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  animation: block1 1s infinite;
+}
+
+.block2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  animation: block2 1s infinite;
+}
+
+.block3 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 40px;
+  bottom: 0px;
+  animation: block1 1s infinite;
+}
+
+.block4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 60px;
+  bottom: 0px;
+  animation: block2 1s infinite;
+}
+
+.block5 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 80px;
+  bottom: 0px;
+  animation: block1 1s infinite;
+}
+
+@keyframes block1 {
+  0% {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  50% {
+    transform: translateY(-80px) rotateX(360deg);
+  }
+  100% {
+    transform: translateY(0px) rotateX(0deg);
+  }
+}
+@keyframes block2 {
+  0% {
+    transform: translateY(-80px) rotateX(0deg);
+  }
+  50% {
+    transform: translateY(0px) rotateX(360deg);
+  }
+  100% {
+    transform: translateY(-80px) rotateX(0deg);
+  }
+}
+@keyframes box1 {
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(300%) rotateY(360deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+@keyframes box2 {
+  0% {
+    transform: translateX(300%) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(0px) rotateY(360deg);
+  }
+  100% {
+    transform: translateX(300%) rotateY(0deg);
+  }
+}

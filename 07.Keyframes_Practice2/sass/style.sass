@@ -1,0 +1,116 @@
+@mixin size($w:20px,$h:20px)
+  width: $w
+  height: $h
+$Ssmall: 1s
+$Sbig: 4s
+$step: 1
+  
+*
+  border: solid 1px 
+  box-sizing: border-box
+
+body, html
+  width: 100%
+  height: 100%
+  margin: 0px
+  padding: 0px
+
+.box1
+  +size(100px,100px)
+  position: relative
+  animation: box1 $Sbig infinite
+  animation-timing-function: steps($step*2)
+
+.box2
+  +size(100px,100px)
+  position: relative
+  animation: box2 $Sbig infinite
+  animation-timing-function: steps($step*4)
+.box3
+  +size(100px,100px)
+  position: relative
+  animation: box1 $Sbig infinite
+  animation-timing-function: steps($step*8)
+.box4
+  +size(100px,100px)
+  position: relative
+  animation: box2 $Sbig infinite
+  animation-timing-function: steps($step*16)
+.box5
+  +size(100px,100px)
+  position: relative
+  animation: box1 $Sbig infinite
+  animation-timing-function: steps($step*32)
+.box6
+  +size(100px,100px)
+  position: relative
+  animation: box2 $Sbig infinite
+  animation-timing-function: ease
+
+.block1
+  +size()
+  position: absolute
+  left: 0px
+  bottom: 0px
+  animation: block1 $Ssmall infinite
+.block2
+  +size()
+  position: absolute
+  left: 20px
+  bottom: 0px
+  animation: block2 $Ssmall infinite
+.block3
+  +size()
+  position: absolute
+  left: 40px
+  bottom: 0px
+  animation: block1 $Ssmall infinite
+
+.block4
+  +size()
+  position: absolute
+  left: 60px
+  bottom: 0px
+  animation: block2 $Ssmall infinite
+
+.block5
+  +size()
+  position: absolute
+  left: 80px
+  bottom: 0px
+  animation: block1 $Ssmall infinite
+
+
+@keyframes block1
+  0%
+    transform: translateY(0px) rotateX(0deg)
+  50%
+    transform: translateY(-80px) rotateX(360deg)
+  100%
+    transform: translateY(0px) rotateX(0deg)
+  
+@keyframes block2
+  0%
+    transform: translateY(-80px) rotateX(0deg)
+  50%
+    transform: translateY(0px) rotateX(360deg)
+  100%
+    transform: translateY(-80px) rotateX(0deg)
+  
+@keyframes box1
+  0%
+    transform: translateX(0px) rotateY(0deg)
+  50%
+    transform: translateX(300%) rotateY(360deg)
+  100%
+    transform: translateX(0px) rotateY(0deg)
+@keyframes box2
+  0%
+    transform: translateX(300%) rotateY(0deg)
+  50%
+    transform: translateX(0px) rotateY(360deg)
+  100%
+    transform: translateX(300%) rotateY(0deg)
+  
+  
+  
