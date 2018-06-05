@@ -45,3 +45,8 @@
 >
 > Demo: [07.Keyframes_Practice2](https://hcwxd.github.io/HTML-CSS-practice/07.Keyframes_Practice2/index.html)
 
+### 靜態 SVG 練習
+
+> `Html` `Css` `SVG`
+>
+> Demo: [08.Static_SVG_Practice](https://hcwxd.github.io/HTML-CSS-practice/08.Static_SVG_Practice/index.html)
