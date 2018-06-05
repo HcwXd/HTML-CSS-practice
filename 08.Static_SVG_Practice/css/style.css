@@ -1,0 +1,47 @@
+@charset "UTF-8";
+svg {
+  width: 240px;
+  border: solid 2px black;
+}
+
+#pic1 {
+  stroke: black;
+  stroke-width: 3px;
+}
+#pic1 circle {
+  fill: white;
+}
+
+#pic3 {
+  stroke: black;
+  stroke-width: 1px;
+}
+#pic3 circle {
+  fill: white;
+}
+#pic3 polyline {
+  fill: none;
+}
+
+#pic4 {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+#pic5 {
+  stroke: black;
+  stroke-width: 2px;
+}
+#pic5 rect {
+  fill: none;
+}
+#pic5 circle {
+  fill: red;
+  stroke: none;
+}
+#pic5 text {
+  font-family: "微軟正黑體";
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-weight: 100;
+}
