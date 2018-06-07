@@ -1,0 +1,69 @@
+@charset "UTF-8";
+svg {
+  width: 240px;
+  border: solid 2px black; }
+
+#pic1 {
+  stroke: black;
+  stroke-width: 3px; }
+  #pic1 circle {
+    fill: white; }
+
+#pic2 {
+  stroke: black;
+  stroke-width: 3px; }
+  #pic2 circle {
+    fill: white; }
+  #pic2 rect {
+    fill: none; }
+
+#pic3 {
+  stroke: black;
+  stroke-width: 1px; }
+  #pic3 circle {
+    fill: white; }
+  #pic3 polyline {
+    fill: none; }
+
+#pic4 {
+  stroke: black;
+  stroke-width: 1px; }
+
+#pic5 {
+  stroke: black;
+  stroke-width: 2px; }
+  #pic5 rect {
+    fill: none; }
+  #pic5 circle {
+    fill: red;
+    stroke: none; }
+  #pic5 text {
+    font-family: "微軟正黑體";
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-weight: 100; }
+  #pic5 .frame_outer, #pic5 .frame_inner {
+    transform: scale(0);
+    transform-origin: center bottom;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s; }
+  #pic5 .screen_content {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0s; }
+  #pic5 .neck, #pic5 .bottom {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 1s; }
+  #pic5:hover .frame_outer, #pic5:hover .frame_inner {
+    transform: scale(1);
+    transition-delay: 0.5s; }
+  #pic5:hover .screen_content {
+    opacity: 1;
+    transition-delay: 1s; }
+  #pic5:hover .neck, #pic5:hover .bottom {
+    opacity: 1;
+    transition-duration: 0.5s;
+    transition-delay: 0s; }
+
+/*# sourceMappingURL=style.css.map */

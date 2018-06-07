@@ -1,0 +1,77 @@
+svg
+  width: 240px
+  border: solid 2px black
+  
+#pic1
+  stroke: black
+  stroke-width: 3px
+  circle
+    fill: white
+    
+#pic2
+  stroke: black
+  stroke-width: 3px
+  circle
+    fill: white
+  rect
+    fill: none
+  
+#pic3
+  stroke: black
+  stroke-width: 1px
+  circle
+    fill: white
+  polyline
+    fill: none
+    
+#pic4
+  stroke: black
+  stroke-width: 1px
+  
+#pic5
+  stroke: black
+  stroke-width: 2px
+  rect
+    fill: none
+  circle
+    fill: red
+    stroke: none
+  text
+    font-family: "微軟正黑體"
+    letter-spacing: 2px
+    font-size: 10px
+    font-weight: 100
+    
+  .frame_outer, .frame_inner
+    transform: scale(0)
+    transform-origin: center bottom
+    transition-duration: 0.5s
+    transition-delay: 0.5s
+  .screen_content
+    opacity: 0
+    transition-duration: 0.5s
+    transition-delay: 0s
+  .neck, .bottom
+    opacity: 0
+    transition-duration: 0.5s
+    transition-delay: 1s
+  
+    
+    
+
+  
+    
+  &:hover
+    .frame_outer, .frame_inner
+      transform: scale(1)
+      transition-delay: 0.5s
+    .screen_content
+      opacity: 1
+      transition-delay: 1s
+    .neck, .bottom
+      opacity: 1
+      transition-duration: 0.5s
+      transition-delay: 0s
+    
+
+
