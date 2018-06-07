@@ -50,3 +50,9 @@
 > `Html` `Css` `SVG`
 >
 > Demo: [08.Static_SVG_Practice](https://hcwxd.github.io/HTML-CSS-practice/08.Static_SVG_Practice/index.html)
+
+### 動態 SVG 練習
+
+> `Html` `Css` `SVG` `Animation`
+>
+> Demo: [09.Dynamic_SVG_Practice](https://hcwxd.github.io/HTML-CSS-practice/09.Dynamic_SVG_Practice/index.html)
