@@ -1,0 +1,74 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #333;
+}
+
+.count {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  border: solid 2px white;
+  font-weight: 300;
+}
+
+.minus,
+.add,
+.number {
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+.minus,
+.add {
+  cursor: pointer;
+  margin: 2px;
+  user-select: none;
+  transition-duration: 1s;
+}
+
+.minus:hover,
+.add:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.info {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  height: 28px;
+}
+
+.info {
+  border-bottom: solid 8px white;
+}
+
+.no_stock {
+  height: 0px;
+  padding: 0px;
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden;
+  transition-duration: 1s;
+}
+
+.no_stock_open {
+  height: 28px;
+  padding: 5px;
+  transition-duration: 1s;
+}
+
+.cry_cry_open {
+  height: 28px;
+  padding: 5px;
+}
