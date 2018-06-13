@@ -1,0 +1,174 @@
+* {
+  position: relative;
+  font-family: "Encode Sans";
+  letter-spacing: 1px;
+  vertical-align: top;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+}
+
+.phone {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  transition: 1s;
+}
+.phone .top {
+  width: 100%;
+  height: 40px;
+}
+.phone .top .camera {
+  border: 1px solid #000;
+  background-color: #111;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.phone .screen {
+  width: 100%;
+  height: 350px;
+  background-color: #eee;
+  transition: 1s;
+  overflow: hidden;
+}
+.phone .screen .pages {
+  width: 100%;
+  height: 100%;
+  font-size: 0px;
+  white-space: nowrap;
+  transition: 1s;
+}
+.phone .screen .pages .page {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.phone .screen .pages .page1 {
+  background-color: #5762D5;
+  color: #D1E3DD;
+  font-size: 30px;
+  padding: 10px;
+}
+.phone .screen .pages .page1 .item1 {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #32292F;
+  background-color: #32292F;
+  border-radius: 85%;
+  position: absolute;
+  left: 15%;
+  top: 80%;
+  animation: item_move1 2s infinite;
+}
+@keyframes item_move1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(25px, 0px);
+  }
+  50% {
+    transform: translate(0px, 25px);
+  }
+  75% {
+    transform: translate(25px, 25px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.phone .screen .pages .page1 .item2 {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #32292F;
+  background-color: #32292F;
+  border-radius: 85%;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  animation: item_move2 30s infinite linear;
+}
+@keyframes item_move2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(1050px, 0px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.phone .screen .pages .page2 {
+  background-color: #6E7DAB;
+  color: #D1E3DD;
+  font-size: 30px;
+  padding: 10px;
+}
+.phone .screen .pages .page3 {
+  background-color: #575366;
+  color: #D1E3DD;
+  font-size: 30px;
+  padding: 10px;
+}
+.phone .bottom {
+  width: 100%;
+  height: 60px;
+}
+.phone .bottom .button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 28px;
+  cursor: pointer;
+}
+.phone .bottom .button:hover {
+  background-color: #ddd;
+}
+
+.status {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.phonename {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 0px;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 15px;
+}
+.buttons button:hover {
+  background-color: #fff;
+  color: #222;
+}
