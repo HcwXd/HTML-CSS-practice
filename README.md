@@ -80,3 +80,10 @@
 > `Html` `Css` `JQuery`
 >
 > Demo: [13.IPhone_Version_Displayer](https://hcwxd.github.io/HTML-CSS-practice/13.IPhone_Version_Displayer/index.html)
+
+### Ajax 載入 API 練習
+
+> `Html` `Css` `JQuery` `Ajax`
+>
+> Demo: [14.Ajax_Practice](https://hcwxd.github.io/HTML-CSS-practice/14.Ajax_Practice/index.html)
+
