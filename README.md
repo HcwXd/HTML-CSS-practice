@@ -99,7 +99,7 @@
 >
 > Demo: [16.Ajax_Shopping_Cart](https://hcwxd.github.io/HTML-CSS-practice/16.Ajax_Shopping_Cart/index.html)
 
-### Ajax 產生購物車
+### RWD max-width & min-width 練習
 
 > `Html` `Css` `RWD`
 >
