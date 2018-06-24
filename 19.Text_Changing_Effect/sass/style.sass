@@ -1,0 +1,40 @@
+*
+  //border: 1px solid #000
+.container
+  position: relative
+  display: inline-block
+  margin: 20px
+  padding: 20px
+  width: 300px
+  height: 200px
+  
+.sentence
+  font-size: 20px
+.word
+  position: absolute
+  font-size: 20px
+  left: 85px
+  
+.word1
+  animation: moving1 6s infinite
+.word2
+  animation: moving1 6s infinite
+  animation-delay: 2s
+.word3
+  animation: moving1 6s infinite
+  animation-delay: 4s
+  
+.mask
+  width: 100%
+  height: 100px
+  background-color: #fff
+  position: absolute
+@keyframes moving1
+  0%
+    transform: translateY(0px) 
+  16%
+    transform: translateY(-100%) 
+  33%
+    transform: translateY(0px) 
+  100%
+    transform: translateY(0px)
