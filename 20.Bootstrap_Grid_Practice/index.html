@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Boostrap - 網頁格線</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Bootstrap格線系統</h1>
+      <p>Bootstrap的格線系統，把寬度切成了12份，你可以透過列(row)裝行(col)，來指定在每一個寬度的螢幕上，這個區塊應該佔多少大小。</p>
+      <a class="btn btn-success btn-lg" href="https://kkbruce.tw/bs3/CSS#grid" target="_blank">中文說明手冊</a>
+      <div class="row">
+        <div class="col-lg-12 visible-lg">
+          <h3>LG(大螢幕>1200px)</h3>
+        </div>
+        <div class="col-md-12 visible-md">
+          <h3>MD(中螢幕>992px)</h3>
+        </div>
+        <div class="col-sm-12 visible-sm">
+          <h3>SM(小螢幕>768px)</h3>
+        </div>
+        <div class="col-xs-12 visible-xs">
+          <h3>XS(超小螢幕
+            <768px)</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="block col-xs-1">1</div>
+      <div class="block col-xs-1">2</div>
+      <div class="block col-xs-1">3</div>
+      <div class="block col-xs-1">4</div>
+      <div class="block col-xs-1">5</div>
+      <div class="block col-xs-1">6</div>
+      <div class="block col-xs-1">7</div>
+      <div class="block col-xs-1">8</div>
+      <div class="block col-xs-1">9</div>
+      <div class="block col-xs-1">10</div>
+      <div class="block col-xs-1">11</div>
+      <div class="block col-xs-1">12</div>
+    </div>
+    <div class="row">
+      <div class="border col-sm-4 col-md-7 col-lg-6">
+        <h3>大區塊(.col-sm-4.col-md-7.col-lg-6)</h3>
+        <p>在bootstrap中總共有分四個螢幕尺寸，要指定欄位寬度的時候，使用(xs/sm/md/lg)四個尺寸關鍵字</p>
+        <div class="well">
+          <p>尺寸是向上覆蓋的(比如如果指定md螢幕佔7欄，沒有指定lg大螢幕佔多少，會沿用中螢幕的分配)</p>
+        </div>
+      </div>
+      <div class="border col-sm-8 col-md-5 col-lg-6">
+        <h3>大區塊(.col-sm-8.col-md-5.col-lg-6)</h3>
+        <ul class="list-group">
+          <li class="list-group-item">清單
+            <spam class="badge">GG</spam>
+          </li>
+          <li class="list-group-item">清單</li>
+          <li class="list-group-item">清單</li>
+        </ul>
+        <div class="btn btn-default">haha</div>
+        <br/>
+        <br/>
+      </div>
+      <div class="row">
+        <div class="border col-md-4 col-sm-12">
+          <h3>標題文字(.col-sm-4 .col-sm-12)</h3>
+          <p>可以使用hidden-尺寸 或是 /visible-尺寸 來指定在特定網頁大小時區塊要不要顯示</p>
+        </div>
+        <div class="border col-md-4 visible-md">
+          <h3>標題文字(.col-sm-4 .visible-md)</h3>
+          <p>我只有在螢幕是中螢幕(md)的時候會出現</p>
+          <p>
+            <div class="btn btn-default">詳細資訊</div>
+          </p>
+        </div>
+        <div class="border col-md-4 visible-md">
+          <h3>標題文字(.col-sm-4 .visible-md)</h3>
+          <p>我只有在螢幕是中螢幕(md)的時候會出現</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border col-sm-8 col-sm-offset-2">
+          <h3>偏移的區塊(.col-sm-8.col-sm-offset-4)</h3>
+          <p>使用col-尺寸-offset-欄位數來指定左側偏移的大小</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

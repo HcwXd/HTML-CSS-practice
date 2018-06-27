@@ -1,0 +1,62 @@
+.jumbotron
+  .container
+    h1 Bootstrap格線系統
+    p Bootstrap的格線系統，把寬度切成了12份，你可以透過列(row)裝行(col)，來指定在每一個寬度的螢幕上，這個區塊應該佔多少大小。
+    a.btn.btn-success.btn-lg(href="https://kkbruce.tw/bs3/CSS#grid" target="_blank") 中文說明手冊
+    .row
+      .col-lg-12.visible-lg
+        h3 LG(大螢幕>1200px)
+      .col-md-12.visible-md
+        h3 MD(中螢幕>992px)
+      .col-sm-12.visible-sm
+        h3 SM(小螢幕>768px)
+      .col-xs-12.visible-xs
+        h3 XS(超小螢幕<768px)
+      
+.container
+  .row
+    .block.col-xs-1 1
+    .block.col-xs-1 2
+    .block.col-xs-1 3
+    .block.col-xs-1 4
+    .block.col-xs-1 5
+    .block.col-xs-1 6
+    .block.col-xs-1 7
+    .block.col-xs-1 8
+    .block.col-xs-1 9
+    .block.col-xs-1 10
+    .block.col-xs-1 11
+    .block.col-xs-1 12
+  .row
+    .border.col-sm-4.col-md-7.col-lg-6
+      h3 大區塊(.col-sm-4.col-md-7.col-lg-6)
+      p 在bootstrap中總共有分四個螢幕尺寸，要指定欄位寬度的時候，使用(xs/sm/md/lg)四個尺寸關鍵字
+      .well
+        p 尺寸是向上覆蓋的(比如如果指定md螢幕佔7欄，沒有指定lg大螢幕佔多少，會沿用中螢幕的分配)
+    .border.col-sm-8.col-md-5.col-lg-6
+      h3 大區塊(.col-sm-8.col-md-5.col-lg-6)
+      ul.list-group
+        li.list-group-item 清單
+          spam.badge GG
+        li.list-group-item 清單
+        li.list-group-item 清單
+      .btn.btn-default haha
+      br
+      br
+    .row
+      .border.col-md-4.col-sm-12
+        h3 標題文字(.col-sm-4 .col-sm-12)
+        p 可以使用hidden-尺寸 或是 /visible-尺寸 來指定在特定網頁大小時區塊要不要顯示
+      .border.col-md-4.visible-md
+        h3 標題文字(.col-sm-4 .visible-md)
+        p 我只有在螢幕是中螢幕(md)的時候會出現
+        p
+          .btn.btn-default 詳細資訊
+      .border.col-md-4.visible-md
+        h3 標題文字(.col-sm-4 .visible-md)
+        p 我只有在螢幕是中螢幕(md)的時候會出現
+
+    .row
+      .border.col-sm-8.col-sm-offset-2
+        h3 偏移的區塊(.col-sm-8.col-sm-offset-4)
+        p 使用col-尺寸-offset-欄位數來指定左側偏移的大小
