@@ -137,3 +137,10 @@
 > `Html` `Css`
 >
 > Demo: [23.Project_PlaylistExplore_UI](https://hcwxd.github.io/HTML-CSS-practice/23.Project_PlaylistExplore_UI/index.html)
+
+### HTML 可拖曳元素練習
+
+> `Html` `Css` `Drag`
+>
+> Demo: [24.Drag_Box_Practice](https://hcwxd.github.io/HTML-CSS-practice/24.Drag_Box_Practice/index.html)
+
