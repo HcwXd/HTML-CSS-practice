@@ -132,3 +132,8 @@
 >
 > Demo: [22.Project_Slack_Layout](https://hcwxd.github.io/HTML-CSS-practice/22.Project_Slack_Layout/index.html)
 
+### PlaylistExplore 網站切版
+
+> `Html` `Css`
+>
+> Demo: [23.Project_PlaylistExplore_UI](https://hcwxd.github.io/HTML-CSS-practice/23.Project_PlaylistExplore_UI/index.html)
