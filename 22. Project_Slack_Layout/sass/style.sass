@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,200,300,400,500,600,700,800,900')
+
+*
+  box-sizing: border-box
+  // border: 1px solid #000
+html, body
+  margin: 0px
+  padding: 0px
+  height: 100%
+  width: 100%
+  display: flex
+  font-family: 'Heebo', sans-serif
+  
+.channel-container
+  width: 20%
+  height: 100%
+  display: flex
+  flex-direction: column
+  background-color: #4d394b
+  background-attachment: scroll
+  color: rgb(44, 45, 48)
+  font-size: 16px
+  // line-height: 16px
+  .users-profile
+    height: 70px
+    padding: 15px
+    .team-name
+      text-transform: uppercase
+      font-size: 18px
+      line-height: 24px
+      color: rgb(255,255,255)
+      font-weight: 500
+    .users-name
+      color: #ab9ba9
+  .dm-contact-list
+    padding: 15px
+    .header
+      color: rgb(202,196,201)
+      font-weight: 400
+      font-size: 18px
+    .contact
+      position: relative
+      width: 100%
+      display: flex
+      color: rgb(202, 196, 201)
+      align-items: center
+      .status
+        font-size: 10px
+        line-height: 26px
+        margin-right: 7px
+        color: #38978D
+      .name
+        line-height: 26px
+      .notification
+        position: absolute
+        background-color: #DC5960
+        color: #fff
+        font-size: 12px
+        height: 18px
+        padding: 0px 7px
+        border-radius: 16px
+        right: 0px
+    .inactive
+      .status, .name
+        color: rgb(202, 196, 201)
+        opacity: 0.5
+.content-container
+  position: relative
+  width: 80%
+  height: 100%
+  color: rgb(44,45,48)
+  display: flex
+  flex-direction: column
+  .chat-header
+    height: 70px
+    padding: 15px
+    color: #717274
+    // border-bottom: 1px solid 
+    box-shadow: inset 0 0 0 1px #e8e8e8
+    .chat-name
+      font-size: 18px
+      font-weight: 600
+    .chat-status
+      font-size: 14px
+      color: #38978D
+    .chat-away
+      color: #717274
+      opacity: 0.7
+  .chat-content-list
+    font-size: 15px
+    flex-direction: column
+    padding: 15px
+    .msg-item
+      padding: 6px 0
+      .msg-pic
+        float: left
+        margin: 0 10px 0 0
+        border-radius: 3px
+        height: 36px
+        width: 36px
+        display: inline-block
+      .msg-row
+        display: inline-block
+      .msg-header
+        display: block
+        .msg-name
+          display: inline-block
+          color: #2c2d30
+          font-weight: 500
+        .msg-time
+          display: inline-block
+          color: #717274
+          font-size: 12px
+      .msg-content
+        display: inline-block
+        font-weight: 400
+  .send-box
+    display: flex
+    justify-content: space-between
+    position: absolute
+    bottom: 2.5%
+    left: 2.5%
+    width: 95%
+    padding: 0px
+    border-radius: 6px
+    height: 44px
+    flex-wrap: wrap
+    .send-content
+      padding-left: 10px
+      border: 2px solid #717274
+      border-radius: 6px 0 0 6px
+      height: auto
+      font-size: 18px
+      width: 94%
+      &:focus
+        outline: 0
+        box-shadow: none
+        color: #2c2d30
+    .sent-button
+      color: #717274
+      border: 2px solid #717274
+      border-radius: 0 6px 6px 0
+      height: 44px
+      width: 6%
+      font-size: 25px      
+      
+      

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,200,300,400,500,600,700,800,900");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "Heebo", sans-serif;
+}
+
+.channel-container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #4d394b;
+  background-attachment: scroll;
+  color: #2c2d30;
+  font-size: 16px;
+}
+.channel-container .users-profile {
+  height: 70px;
+  padding: 15px;
+}
+.channel-container .users-profile .team-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  font-weight: 500;
+}
+.channel-container .users-profile .users-name {
+  color: #ab9ba9;
+}
+.channel-container .dm-contact-list {
+  padding: 15px;
+}
+.channel-container .dm-contact-list .header {
+  color: #cac4c9;
+  font-weight: 400;
+  font-size: 18px;
+}
+.channel-container .dm-contact-list .contact {
+  position: relative;
+  width: 100%;
+  display: flex;
+  color: #cac4c9;
+  align-items: center;
+}
+.channel-container .dm-contact-list .contact .status {
+  font-size: 10px;
+  line-height: 26px;
+  margin-right: 7px;
+  color: #38978D;
+}
+.channel-container .dm-contact-list .contact .name {
+  line-height: 26px;
+}
+.channel-container .dm-contact-list .contact .notification {
+  position: absolute;
+  background-color: #DC5960;
+  color: #fff;
+  font-size: 12px;
+  height: 18px;
+  padding: 0px 7px;
+  border-radius: 16px;
+  right: 0px;
+}
+.channel-container .dm-contact-list .inactive .status, .channel-container .dm-contact-list .inactive .name {
+  color: #cac4c9;
+  opacity: 0.5;
+}
+
+.content-container {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  color: #2c2d30;
+  display: flex;
+  flex-direction: column;
+}
+.content-container .chat-header {
+  height: 70px;
+  padding: 15px;
+  color: #717274;
+  box-shadow: inset 0 0 0 1px #e8e8e8;
+}
+.content-container .chat-header .chat-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.content-container .chat-header .chat-status {
+  font-size: 14px;
+  color: #38978D;
+}
+.content-container .chat-header .chat-away {
+  color: #717274;
+  opacity: 0.7;
+}
+.content-container .chat-content-list {
+  font-size: 15px;
+  flex-direction: column;
+  padding: 15px;
+}
+.content-container .chat-content-list .msg-item {
+  padding: 6px 0;
+}
+.content-container .chat-content-list .msg-item .msg-pic {
+  float: left;
+  margin: 0 10px 0 0;
+  border-radius: 3px;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+}
+.content-container .chat-content-list .msg-item .msg-row {
+  display: inline-block;
+}
+.content-container .chat-content-list .msg-item .msg-header {
+  display: block;
+}
+.content-container .chat-content-list .msg-item .msg-header .msg-name {
+  display: inline-block;
+  color: #2c2d30;
+  font-weight: 500;
+}
+.content-container .chat-content-list .msg-item .msg-header .msg-time {
+  display: inline-block;
+  color: #717274;
+  font-size: 12px;
+}
+.content-container .chat-content-list .msg-item .msg-content {
+  display: inline-block;
+  font-weight: 400;
+}
+.content-container .send-box {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2.5%;
+  left: 2.5%;
+  width: 95%;
+  padding: 0px;
+  border-radius: 6px;
+  height: 44px;
+  flex-wrap: wrap;
+}
+.content-container .send-box .send-content {
+  padding-left: 10px;
+  border: 2px solid #717274;
+  border-radius: 6px 0 0 6px;
+  height: auto;
+  font-size: 18px;
+  width: 94%;
+}
+.content-container .send-box .send-content:focus {
+  outline: 0;
+  box-shadow: none;
+  color: #2c2d30;
+}
+.content-container .send-box .sent-button {
+  color: #717274;
+  border: 2px solid #717274;
+  border-radius: 0 6px 6px 0;
+  height: 44px;
+  width: 6%;
+  font-size: 25px;
+}
