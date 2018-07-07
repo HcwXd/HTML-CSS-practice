@@ -1,0 +1,238 @@
+*
+  // border: 1px solid black
+  letter-spacing: 2px
+
+$txt_black: rgb(60, 60, 60)
+$bg_white: rgb(242, 242, 242)
+
+$bg_deep_black: rgb(15, 15, 15)
+$bg_black: rgb(26, 26, 26)
+$bg_grey: rgb(40, 40, 40)
+$txt_white: rgb(190, 190, 190)
+
+html, body
+  background-color: $bg_deep_black
+  margin: 0px
+  padding: 0px
+  box-sizing: border-box
+  width: 100%
+  height: 100%
+  position: relative
+  color: $txt_black
+
+.nav_wrap
+  top: 0px
+  width: 100%
+  display: flex
+  position: fixed
+  color: black
+  border-bottom: 1px solid black
+  background-color: $bg_white
+  z-index: 3
+  justify-content: space-between
+  .right_nav
+    display: flex
+  .left_nav
+    display: flex
+  .nav_item
+    padding: 12px
+    margin-left: 12px
+    &:hover
+      opacity: 0.7
+      cursor: pointer
+  
+
+.content_wrap
+  width: 95%
+  background-color: $bg_black
+  color: $txt_white
+  margin-top: 5%
+  margin-left: 50%
+  transform: translateX(-50%)
+  display: block
+  position: relative
+  justify-content: space-between
+  height: 100%
+  .search_area_wrap
+    width: 100%
+    // border: 1px solid $txt_white
+    display: flex
+    justify-content: space-around
+    .search_area
+      margin-top: 35px
+      margin-bottom: 35px
+      display: flex
+      width: 70%
+      .search_input
+        align-items: center
+        text-decoration: none
+        border: 2px solid $txt_white
+        border-right: 1px solid $txt_white
+        background-color: $bg_grey
+        color: $txt_white
+        width: 85%
+        height: 45px
+        line-height: 45px
+        font-size: 12px
+        border-radius: 5px 0 0 5px
+        padding: 0px 15px
+        &:focus
+          outline-color: rgb(44, 45, 48)
+          outline-width: 0px
+          box-shadow: none
+          color: $txt_white
+      .search_btn
+        align-items: center
+        text-align: center
+        height: 45px
+        border: 2px solid $txt_white
+        border-left: 1px solid $txt_white
+        line-height: 45px
+        width: 15%
+        font-size: 12px
+        background-color: $bg_grey
+        color: $txt_white
+        font-size: 12px
+        font-weight: 500
+        border-radius: 0 5px 5px 0
+        cursor: pointer
+        &:hover
+          opacity: 0.9
+  .publishing_wrap
+    display: flex
+    justify-content: space-between
+    width: 100%        
+    .search_result_wrap
+      width: 30%
+      margin-left: 15px
+      // border: 1px solid $txt_white
+      .pick_des
+        border: 1px solid $txt_white
+        padding: 15px
+      .song_info
+        cursor: pointer
+        display: flex
+        justify-content: space-between
+        border: 1px solid $txt_white
+        border-top: 0px solid $txt_white
+        padding: 5px 0px
+        align-items: center
+        &:active
+          border: 1px solid yellow
+
+        .song_name
+          display: inline-block
+          width: 85%
+          // white-space: nowrap
+          overflow: hidden
+          padding-left: 15px
+          padding-right: 15px
+          height: 48px
+        .song_cover
+          width: 70px
+          height: 70px
+          display: inline-block
+          // width: 15%
+          padding-left: 15px
+    .add_des_wrap
+      width: 30%
+      display: flex
+      flex-direction: column
+      align-items: center
+      .des_input
+        align-items: center
+        text-decoration: none
+        border: 2px solid $txt_white
+        border-right: 1px solid $txt_white
+        background-color: $bg_grey
+        color: $txt_white
+        width: 85%
+        font-size: 18px
+        line-height: 18px
+        border-radius: 5px
+        padding: 15px 15px
+        &:focus
+          word-wrap: break-all
+          outline-color: rgb(44, 45, 48)
+          outline-width: 0px
+          box-shadow: none
+          color: $txt_white
+      .add_btn
+        margin-top: 15px
+        align-items: center
+        text-align: center
+        height: 45px
+        border: 2px solid $txt_white
+        border-left: 1px solid $txt_white
+        line-height: 45px
+        width: 90%
+        font-size: 12px
+        background-color: $bg_grey
+        color: $txt_white
+        font-size: 12px
+        font-weight: 500
+        border-radius: 5px
+        cursor: pointer
+        &:hover
+          opacity: 0.9
+
+    .playlist_status_wrap
+      margin-right: 15px
+      width: 30%
+      .pick_des
+        border: 1px solid $txt_white
+        padding: 15px
+      .song_info
+        display: flex
+        justify-content: space-between
+        border: 1px solid $txt_white
+        border-top: 0px solid $txt_white
+        padding: 5px 0px
+        align-items: center
+        &:active
+          border: 1px solid yellow
+
+        .song_name
+          display: inline-block
+          width: 85%
+          // white-space: nowrap
+          overflow: hidden
+          padding-left: 15px
+          padding-right: 15px
+          height: 48px
+        .song_cover
+          width: 70px
+          height: 70px
+          display: inline-block
+          // width: 15%
+          padding-left: 15px
+          white-space: nowrap
+        .song_edit
+          display: inline-block
+          width: 10%
+          // padding-left: 12px
+          white-space: nowrap
+          cursor: pointer
+
+      .publish_btn
+        margin-top: 15px
+        align-items: center
+        text-align: center
+        height: 45px
+        border: 2px solid $txt_white
+        border-left: 1px solid $txt_white
+        line-height: 45px
+        width: 100%
+        font-size: 12px
+        background-color: $bg_grey
+        color: $txt_white
+        font-size: 12px
+        font-weight: 500
+        border-radius: 5px
+        cursor: pointer
+        &:hover
+          opacity: 0.9
+
+
+  
+  

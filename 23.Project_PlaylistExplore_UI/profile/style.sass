@@ -1,0 +1,191 @@
+*
+  // border: 1px solid black
+  letter-spacing: 2px
+
+$txt_black: rgb(60, 60, 60)
+$bg_white: rgb(242, 242, 242)
+
+$bg_deep_black: rgb(15, 15, 15)
+$bg_black: rgb(26, 26, 26)
+$bg_grey: rgb(40, 40, 40)
+$txt_white: rgb(190, 190, 190)
+
+html, body
+  background-color: $bg_deep_black
+  margin: 0px
+  padding: 0px
+  box-sizing: border-box
+  width: 100%
+  height: 100%
+  position: relative
+  color: $txt_black
+
+.nav_wrap
+  top: 0px
+  width: 100%
+  display: flex
+  position: fixed
+  color: black
+  border-bottom: 1px solid black
+  background-color: $bg_white
+  z-index: 3
+  justify-content: space-between
+  .right_nav
+    display: flex
+  .left_nav
+    display: flex
+  .nav_item
+    padding: 12px
+    margin-left: 12px
+    &:hover
+      opacity: 0.7
+      cursor: pointer
+  
+
+.content_wrap
+  width: 95%
+  background-color: $bg_black
+
+  color: $txt_white
+  margin-top: 5%
+  margin-left: 50%
+  transform: translateX(-50%)
+  display: flex
+  position: relative
+  justify-content: space-between
+  height: 100%
+  .owner_info_wrap
+    width: 25%
+    display: flex
+    flex-direction: column
+    align-items: center
+    .owner_avatar
+      border-radius: 100%
+      width: 100px
+      height: 100px
+      margin-top: 15px
+    .owner_name
+      font-size: 24px
+      margin-top: 15px
+    .owner_bio
+      margin-top: 15px
+      padding: 0px 25px
+  .player_wrap
+    background-color: $bg_grey
+    // border: 10px solid $bg_grey
+    // border-right: 10px solid $bg_grey
+    padding: 15px
+    width: 45% 
+    .youtube_player
+      display: flex
+      justify-content: space-around
+    .song_stats
+      display: flex
+      padding: 5px 15px
+      align-items: center
+      .like_btn
+        border-radius: 4px
+        font-size: 14px
+        background: transparent
+        border: 0px solid #000
+        color: $txt_white
+        font-size: 24px
+        cursor: pointer
+        &:hover
+          opacity: 0.5
+      .like_number
+        margin-left: 5px
+        line-height: 24px
+    .song_des
+      border-bottom: 1px solid $txt_white
+      .song_date
+        padding: 5px 15px 5px 15px
+      .song_text
+        padding: 5px 15px 15px 15px
+    
+    .comment_wrap
+      padding: 5px 15px
+      .comment_info
+        display: flex
+        align-items: center
+        padding: 5px 5px
+        border-bottom: 1px solid $txt_white
+        .comment_avatar
+          width: 40px
+          height: 40px
+          border-radius: 100%
+        .comment_name
+          margin-left: 15px
+        .comment_content
+          margin-left: 15px
+    .comment_submit
+      padding: 5px 15px
+      display: flex
+      .comment_text
+        align-items: center
+        text-decoration: none
+        border: 2px solid $txt_white
+        border-right: 1px solid $txt_white
+        background-color: $bg_grey
+        color: $txt_white
+        width: 85%
+        height: 45px
+        line-height: 45px
+        font-size: 12px
+        border-radius: 5px 0 0 5px
+        padding: 0px 15px
+        &:focus
+          outline-color: rgb(44, 45, 48)
+          outline-width: 0px
+          box-shadow: none
+          color: $txt_white
+      .submit_btn
+        align-items: center
+        text-align: center
+        height: 45px
+        border: 2px solid $txt_white
+        border-left: 1px solid $txt_white
+        line-height: 45px
+        width: 15%
+        font-size: 12px
+        background-color: $bg_grey
+        color: $txt_white
+        font-size: 12px
+        font-weight: 500
+        border-radius: 0 5px 5px 0
+  .playlist_wrap
+    // background-color: $bg_grey
+    width: 30% 
+    .playlist_info
+      border-bottom: 1px solid $txt_white
+      margin-bottom: 12px
+      .playlist_name
+        font-size: 24px
+        padding: 15px
+      .playlist_des
+        padding: 15px
+    .song_list
+      .song_info
+        display: flex
+        justify-content: space-between
+        border-bottom: 1px solid $txt_white
+        margin-bottom: 12px
+        .song_name
+          display: inline-block
+          width: 85%
+          // white-space: nowrap
+          overflow: hidden
+          padding-left: 15px
+          padding-right: 15px
+          height: 48px
+        .song_like
+          display: inline-block
+          width: 15%
+          // padding-left: 12px
+          white-space: nowrap
+       
+
+      
+
+  
+  

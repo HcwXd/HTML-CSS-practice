@@ -1,0 +1,72 @@
+* {
+  letter-spacing: 2px; }
+
+html, body {
+  background-color: #0f0f0f;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #3c3c3c; }
+
+.nav_wrap {
+  top: 0px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  color: black;
+  border-bottom: 1px solid black;
+  background-color: #f2f2f2;
+  z-index: 3;
+  justify-content: space-between; }
+  .nav_wrap .right_nav {
+    display: flex; }
+  .nav_wrap .left_nav {
+    display: flex; }
+  .nav_wrap .nav_item {
+    padding: 12px;
+    margin-left: 12px; }
+    .nav_wrap .nav_item:hover {
+      opacity: 0.7;
+      cursor: pointer; }
+
+.content_wrap {
+  width: 70%;
+  color: #bebebe;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  height: 100%; }
+  .content_wrap .posts_wrap {
+    width: 60%; }
+    .content_wrap .posts_wrap .post {
+      background-color: #282828;
+      margin-bottom: 15px;
+      padding: 15px 30px; }
+      .content_wrap .posts_wrap .post .owner_info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px; }
+        .content_wrap .posts_wrap .post .owner_info .owner_avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 100%; }
+        .content_wrap .posts_wrap .post .owner_info .owner_name {
+          padding-left: 15px; }
+      .content_wrap .posts_wrap .post .playlist_cover {
+        widows: 563px;
+        height: 300px;
+        margin-bottom: 15px; }
+      .content_wrap .posts_wrap .post .playlist_stats {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px; }
+      .content_wrap .posts_wrap .post .playlist_des {
+        margin-bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
