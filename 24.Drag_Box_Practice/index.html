@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML - drag 練習</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div id="Box1" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+  <div id="Box2" ondrop="Drop(event)" ondragover="AllowDrop(event)">
+    <div id="Ball" draggable="true" ondragstart="Drag(event)"></div>
+  </div>
+  <div id="Box3" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+  <div id="Box4" ondrop="Drop(event)" ondragover="AllowDrop(event)"></div>
+  <div style="clear:both;"></div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
