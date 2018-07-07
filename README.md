@@ -125,3 +125,10 @@
 > `Html` `Css` `Boostrap`
 >
 > Demo: [21.Bootstrap_Grid_Practice](https://hcwxd.github.io/HTML-CSS-practice/21.Bootstrap_Grid_Practice/index.html)
+
+### Slack 版面切版
+
+> `Html` `Css`
+>
+> Demo: [22.Project_Slack_Layout](https://hcwxd.github.io/HTML-CSS-practice/22.Project_Slack_Layout/index.html)
+
