@@ -1,0 +1,91 @@
+*
+  // border: solid black 1px
+html, body
+  padding: 0px
+  margin: 0px
+  height: 100%
+  width: 100%
+.container
+  position: fixed
+  top: 50%
+  left: 50%
+  width: 500px
+  height: 500px
+  transform: translate(-50%,-50%)
+  .dot
+    width: 50px
+    height: 50px
+    background-color: skyblue
+    border-radius: 100%
+    position: absolute
+  .left2
+    animation: l1 2s infinite
+    top: 50%
+    left: 30%
+    transform: translate(-50%,-50%)
+  .left1
+    animation: l2 2s infinite
+    top: 50%
+    left: 40%
+    transform: translate(-50%,-50%)
+  .center
+    animation: c 2s infinite
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+  .right1
+    animation: r1 2s infinite
+    top: 50%
+    left: 60%
+    transform: translate(-50%,-50%)
+  .right2
+    animation: r2 2s infinite
+    top: 50%
+    left: 70%
+    transform: translate(-50%,-50%)
+
+@keyframes l1
+  0%
+    transform: translate(-50%,-50%) rotateY(0deg)
+  25%
+    transform: translate(-50%,-300%) rotateY(360deg)
+  50%
+    transform: translate(350%,-300%) rotateY(0deg)
+  75%
+    transform: translate(150%,-50%) rotateY(360deg)
+  100%
+    transform: translate(-50%,-50%) rotateY(0deg)
+
+  
+@keyframes l2
+  0%
+    transform: translate(-50%,-50%) rotateY(0deg)
+  50%
+    transform: translate(-50%,-200%) rotateY(360deg)
+  100%
+    transform: translate(-50%,-50%) rotateY(0deg)
+@keyframes c
+  0%
+    transform: translate(-50%,-50%) rotateY(0deg)
+  50%
+    transform: translate(-50%,-100%) rotateY(360deg)
+  100%
+    transform: translate(-50%,-50%) rotateY(0deg)
+@keyframes r1
+  0%
+    transform: translate(-50%,-50%) rotateY(0deg)
+  50%
+    transform: translate(-50%,-200%) rotateY(360deg)
+  100%
+    transform: translate(-50%,-50%) rotateY(0deg)
+@keyframes r2
+  0%
+    transform: translate(-50%,-50%) rotateY(0deg)
+  25%
+    transform: translate(-50%,-300%) rotateY(360deg)
+  50%
+    transform: translate(-450%,-300%) rotateY(0deg)
+  75%
+    transform: translate(-250%,-50%) rotateY(360deg)
+  100%
+    transform: translate(-50%,-50%) rotateY(0deg)
