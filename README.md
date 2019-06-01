@@ -150,8 +150,14 @@
 >
 > Demo: [25.Drag_List_Practice](https://hcwxd.github.io/HTML-CSS-practice/25.Drag_List_Practice/index.html)
 
-### 簡易動畫複習（未完成）
+### 簡易動畫複習
 
 > `Html` `Css` `Keyframes`
 >
-> Demo: [25.Drag_List_Practice](https://hcwxd.github.io/HTML-CSS-practice/26.Simple_Animation/index.html)
+> Demo: [26.Simple_Animation](https://hcwxd.github.io/HTML-CSS-practice/26.Simple_Animation/index.html)
+
+### 播放清單卡片
+
+> `Html` `Css` 
+>
+> Demo: [27.Playlist_Card](https://hcwxd.github.io/HTML-CSS-practice/27.Playlist_Card/index.html)
