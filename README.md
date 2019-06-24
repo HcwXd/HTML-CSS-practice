@@ -158,6 +158,12 @@
 
 ### 播放清單卡片
 
-> `Html` `Css` 
+> `Html` `Css`
 >
 > Demo: [27.Playlist_Card](https://hcwxd.github.io/HTML-CSS-practice/27.Playlist_Card/index.html)
+
+### 用偽類別和偽元素實作有陰影標題
+
+> `Pseudo-classes` `Pseudo-element`
+>
+> Demo: [28.Pseudo_Title](https://hcwxd.github.io/HTML-CSS-practice/28.Pseudo_Title/index.html)
