@@ -173,3 +173,9 @@
 > `Html` `Css`
 >
 > Demo: [29.Medium_Articles_List](https://hcwxd.github.io/HTML-CSS-practice/29.Medium_Articles_List/index.html)
+
+### Slack Icon Hover 效果
+
+> `Html` `Css`
+>
+> Demo: [30.Slack-icon-hover-effect](https://hcwxd.github.io/HTML-CSS-practice/30.Slack-icon-hover-effect/index.html)
