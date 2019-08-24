@@ -179,3 +179,9 @@
 > `Html` `Css`
 >
 > Demo: [30.Slack-icon-hover-effect](https://hcwxd.github.io/HTML-CSS-practice/30.Slack-icon-hover-effect/index.html)
+
+### 純 CSS 半圓與動畫
+
+> `Html` `Css` `Animation`
+>
+> Demo: [31.Semicircle-Animation](https://hcwxd.github.io/HTML-CSS-practice/31.Semicircle-Animation/index.html)
