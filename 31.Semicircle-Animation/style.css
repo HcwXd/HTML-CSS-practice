@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: Azure;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.pin {
+  width: 0;
+  height: 0;
+  border: 50px solid Azure;
+  border-radius: 50px;
+  animation: pin1 2s infinite;
+  animation-timing-function: linear;
+}
+
+.a {
+  border-left-color: skyblue;
+  border-right-color: skyblue;
+}
+
+.b {
+  border-left-color: DeepSkyBlue;
+  border-bottom-color: DeepSkyBlue;
+}
+
+.c {
+  border-left-color: DeepSkyBlue;
+  border-bottom-color: DodgerBlue;
+  border-right-color: DeepSkyBlue;
+  border-top-color: DodgerBlue;
+}
+
+.d {
+  border-right-color: DodgerBlue;
+  border-top-color: DodgerBlue;
+}
+
+.e {
+  border-top-color: RoyalBlue;
+  border-bottom-color: RoyalBlue;
+}
+
+@keyframes pin1 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
