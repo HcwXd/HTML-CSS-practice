@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: Azure;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.container .box {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 50px;
+}
+.container .box0 {
+  border-bottom-color: rgba(26, 200, 237, 0.25);
+  border-left-color: rgba(26, 200, 237, 0.5);
+  border-top-color: rgba(26, 200, 237, 0.75);
+  border-right-color: #1ac8ed;
+}
+.container .box1 {
+  border-right-color: #1ac8ed;
+}
+.container .box2 {
+  border-bottom-color: rgba(174, 212, 230, 0.25);
+  border-left-color: rgba(174, 212, 230, 0.5);
+  border-top-color: rgba(174, 212, 230, 0.75);
+  border-right-color: #aed4e6;
+}
+.container .box3 {
+  border-bottom-color: rgba(175, 117, 149, 0.25);
+  border-left-color: rgba(175, 117, 149, 0.5);
+  border-top-color: rgba(175, 117, 149, 0.75);
+  border-right-color: #af7595;
+}
+.container .box4 {
+  border-bottom-color: rgba(174, 212, 230, 0.25);
+  border-left-color: rgba(174, 212, 230, 0.5);
+  border-top-color: rgba(174, 212, 230, 0.75);
+  border-right-color: #aed4e6;
+}
+.container .box5 {
+  border-bottom-color: rgba(26, 200, 237, 0.25);
+  border-left-color: rgba(26, 200, 237, 0.5);
+  border-top-color: rgba(26, 200, 237, 0.75);
+  border-right-color: #1ac8ed;
+}
+.container .box6 {
+  border-left-color: rgba(26, 200, 237, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
