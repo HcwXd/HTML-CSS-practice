@@ -203,3 +203,9 @@
 > `Html` `Css`
 >
 > Demo: [34.Lotus](https://hcwxd.github.io/HTML-CSS-practice/34.Lotus/index.html)
+
+### 生成蓮花
+
+> `Html` `Css`
+>
+> Demo: [35.Lotus-Animation](https://hcwxd.github.io/HTML-CSS-practice/35.Lotus-Animation/index.html)
