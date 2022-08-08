@@ -188,12 +188,18 @@
 
 ### 三角形
 
-> `Html` `Css` 
+> `Html` `Css`
 >
 > Demo: [32.Trangle](https://hcwxd.github.io/HTML-CSS-practice/32.Trangle/index.html)
 
 ### 三角形牆
 
-> `Html` `Css` 
+> `Html` `Css`
 >
 > Demo: [33.Triangle-Wall](https://hcwxd.github.io/HTML-CSS-practice/33.Triangle-Wall/index.html)
+
+### 蓮花
+
+> `Html` `Css`
+>
+> Demo: [34.Lotus](https://hcwxd.github.io/HTML-CSS-practice/34.Lotus/index.html)
