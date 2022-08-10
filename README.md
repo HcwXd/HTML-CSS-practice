@@ -209,3 +209,9 @@
 > `Html` `Css`
 >
 > Demo: [35.Lotus-Animation](https://hcwxd.github.io/HTML-CSS-practice/35.Lotus-Animation/index.html)
+
+### 生成色彩蓮花
+
+> `Html` `Css`
+>
+> Demo: [36.Lotus-Animation-Variant](https://hcwxd.github.io/HTML-CSS-practice/36.Lotus-Animation-Variant/index.html)
