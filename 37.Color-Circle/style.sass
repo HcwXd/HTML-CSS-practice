@@ -1,0 +1,68 @@
+$c1: #cdd5dc
+$c2: #f4f4f4
+$c3: #e0e0e0
+$c4: #b6b6bb
+*
+  padding: 0
+  margin: 0
+body
+  background-color: Azure
+  width: 100%
+  height: 100%
+  overflow: hidden
+.pin
+  width: 0
+  height: 0
+  
+  animation: pin1 2s infinite
+  animation-timing-function: linear
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  
+.a
+  border: 50px solid Azure
+  border-radius: 50px
+
+  border-left-color: $c1
+  border-right-color: $c1
+  z-index: 90
+
+.b
+  border: 70px solid Azure
+  border-radius: 70px
+
+  border-top-color: $c2
+  border-bottom-color: $c2
+  z-index: 80
+
+
+.c
+  border: 90px solid Azure
+  border-radius: 90px
+
+  border-left-color: $c3
+  border-right-color: $c3
+  z-index: 70
+
+
+.d
+  border: 110px solid Azure
+  border-radius: 110px
+
+  border-bottom-color: $c4
+  border-top-color: $c4
+  z-index: 60
+  
+  
+  
+@keyframes pin1
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+
+  
+  
+  
