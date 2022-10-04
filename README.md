@@ -190,7 +190,7 @@
 
 > `Html` `Css`
 >
-> Demo: [32.Trangle](https://hcwxd.github.io/HTML-CSS-practice/32.Trangle/index.html)
+> Demo: [32.Trangle](https://hcwxd.github.io/HTML-CSS-practice/32.Triangle/index.html)
 
 ### 三角形牆
 
@@ -215,3 +215,9 @@
 > `Html` `Css`
 >
 > Demo: [36.Lotus-Animation-Variant](https://hcwxd.github.io/HTML-CSS-practice/36.Lotus-Animation-Variant/index.html)
+
+### 色彩原牆
+
+> `Html` `Css`
+>
+> Demo: [37.Color-Circle](https://hcwxd.github.io/HTML-CSS-practice/37.Color-Circle/index.html)
