@@ -220,4 +220,16 @@
 
 > `Html` `Css`
 >
-> Demo: [37.Color-Circle](https://hcwxd.github.io/HTML-CSS-practice/37.Color-Circle/index.html)
+> Demo: [37.Color](https://hcwxd.github.io/HTML-CSS-practice/37.Color/index.html)
+
+### 色彩原牆
+
+> `Html` `Css`
+>
+> Demo: [38.Color-Circle](https://hcwxd.github.io/HTML-CSS-practice/38.Color-Circle/index.html)
+
+### 時區們
+
+> `Html` `Css`
+>
+> Demo: [39.Zime-Zones](https://hcwxd.github.io/HTML-CSS-practice/39.Zime-Zones/index.html)
