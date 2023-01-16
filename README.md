@@ -232,4 +232,4 @@
 
 > `Html` `Css`
 >
-> Demo: [39.Zime-Zones](https://hcwxd.github.io/HTML-CSS-practice/39.Zime-Zones/index.html)
+> Demo: [39.Zime-Zones](https://hcwxd.github.io/HTML-CSS-practice/39.Time-Zones/index.html)
