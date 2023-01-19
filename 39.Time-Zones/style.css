@@ -42,4 +42,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.credit {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  padding: 10px;
+  color: rgba(255, 0, 0, 0.5);
+  border: 1px solid rgba(255, 0, 0, 0.1);
+}
 /*# sourceMappingURL=style.css.map */

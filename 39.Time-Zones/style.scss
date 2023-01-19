@@ -16,7 +16,6 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  // display: flex;
   .rowContainer {
     display: flex;
     .box {
@@ -30,4 +29,12 @@ body {
       align-items: center;
     }
   }
+}
+.credit {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  padding: 10px;
+  color: rgba(255, 0, 0, 0.5);
+  border: 1px solid rgba(255, 0, 0, 0.1);
 }
