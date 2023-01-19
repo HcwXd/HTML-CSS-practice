@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap");
 @font-face {
   font-family: 'Clock';
   src: url("./digital-font/digital-7.ttf") format("woff2");
@@ -6,7 +7,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Clock', monospace;
 }
 
 body {
@@ -22,6 +22,7 @@ body {
 }
 
 .container .rowContainer {
+  font-family: 'Clock', monospace;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,11 +45,13 @@ body {
 }
 
 .credit {
-  position: absolute;
-  right: 0%;
-  bottom: 0%;
-  padding: 10px;
-  color: rgba(255, 0, 0, 0.5);
-  border: 1px solid rgba(255, 0, 0, 0.1);
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=style.css.map */
