@@ -1,0 +1,85 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  font-family: "Ubuntu", "微軟正黑體";
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFA042;
+}
+
+#buylist {
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid #333;
+  background-color: #fcfcff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+#buylist h1 {
+  padding: 20px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #B22623;
+  border-bottom: 3px solid #333;
+  color: #FCFCFF;
+}
+#buylist .buy_item {
+  border: 3px solid #333;
+  padding: 20px;
+}
+#buylist .buy_item input {
+  border: 3px solid #333;
+  width: 100px;
+  padding: 4px;
+}
+#buylist .buy_item .add_button {
+  display: inline-block;
+  border: 3px solid #333;
+  margin-left: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+#buylist .buy_item .add_button:hover {
+  background-color: #B22623;
+  color: #FCFCFF;
+  font-weight: normal;
+}
+#buylist #item_list .item, #buylist #item_list .total_item {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border: 3px solid #333;
+}
+#buylist #item_list .item .item_name, #buylist #item_list .total_item .item_name {
+  display: inline-block;
+}
+#buylist #item_list .item .item_price, #buylist #item_list .total_item .item_price {
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  background-color: rgba(255, 160, 66, 0.7);
+  padding-right: 7px;
+  padding-left: 7px;
+}
+#buylist #item_list .item .del_button, #buylist #item_list .total_item .del_button {
+  display: inline-block;
+  position: absolute;
+  right: 3%;
+  cursor: pointer;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+#buylist #item_list .item .del_button:hover, #buylist #item_list .total_item .del_button:hover {
+  background-color: #B22623;
+  color: #FCFCFF;
+  font-weight: normal;
+}/*# sourceMappingURL=style.css.map */

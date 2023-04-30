@@ -1,0 +1,55 @@
+.body, html {
+  background-color: #888;
+  height: 100%;
+  width: 100%;
+}
+
+.cross {
+  border: solid 2px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: rgba(200, 30, 30, 0.7);
+  left: 50%;
+  top: 250px;
+  transform: translateX(-50%);
+}
+.cross:hover .line1, .cross:hover .line2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cross:hover .line1 {
+  width: 1700px;
+  transform: translateX(-50%) translateY(-50%) rotate(135deg);
+}
+.cross:hover .line2 {
+  width: 1700px;
+  transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+}
+.cross:active .line1, .cross:active .line2 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.cross:active .line1 {
+  width: 170px;
+  transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+}
+.cross:active .line2 {
+  width: 170px;
+  transform: translateX(-50%) translateY(-50%) rotate(135deg);
+}
+.cross .line1, .cross .line2 {
+  background-color: rgb(0, 0, 0);
+  border: solid 2px;
+  width: 130px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transition-duration: 0.5s;
+}
+.cross .line1 {
+  transform: translateX(-50%) translateY(100%);
+}
+.cross .line2 {
+  transform: translateX(-50%) translateY(-100%);
+}/*# sourceMappingURL=style.css.map */

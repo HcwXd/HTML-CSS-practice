@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+html, body {
+  margin: 0px;
+}
+
+.max_width {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  font-family: Montserrat, 微軟正黑體;
+  padding: 30px;
+}
+.content h5 {
+  margin-top: 5px;
+  font-size: 16px;
+}
+.content .title_hr {
+  border: solid 3px #ffb336;
+  width: 100px;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h1.english {
+  font-size: 24px;
+}
+.content h2.english {
+  font-size: 16px;
+}
+.content h3.english {
+  font-size: 12px;
+}
+.content .english {
+  margin-top: 20px;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 10px;
+}
+.content .color_chip .color_tag, .content .color_chip .color_block {
+  vertical-align: middle;
+  display: inline-block;
+}
+.content .color_chip .color_block {
+  width: 50px;
+  height: 50px;
+  border: solid 2px;
+}
+.content .color_chip .block_yellow {
+  background-color: #ffb336;
+}
+.content .color_chip .block_blue {
+  background-color: #27232F;
+}
+.content .color_chip .block_white {
+  background-color: #f3f7f7;
+}
+.content .color_chip .block_grey {
+  background-color: #333333;
+}
+.content .buttom {
+  display: inline-block;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 5px;
+  border: solid 1px white;
+}
+.content .buttom_blue {
+  background-color: #27232F;
+  color: #f3f7f7;
+  font-weight: 400;
+}
+.content .buttom_yellow {
+  background-color: #ffb336;
+  color: #27232F;
+}
+
+.content_grey {
+  background-color: #333333;
+  color: #f3f7f7;
+}
+.content_grey .english {
+  color: #ffb336;
+}
+.content_grey h1, .content_grey h2, .content_grey h3 {
+  font-weight: 500;
+}
+
+.content_blue {
+  background-color: #27232F;
+  color: #f3f7f7;
+}
+.content_blue .english {
+  color: #ffb336;
+}
+.content_blue h1, .content_blue h2, .content_blue h3 {
+  font-weight: 500;
+}
+
+.content_white {
+  background-color: #f3f7f7;
+  color: #27232F;
+}
+.content_white .english {
+  color: #ffb336;
+}
+.content_white h1, .content_white h2, .content_white h3 {
+  font-weight: 500;
+}
+.content_white .buttom {
+  border: solid 1px black;
+}/*# sourceMappingURL=style.css.map */

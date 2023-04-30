@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #06090d;
+  background-color: rgb(6, 9, 13);
   font-family: "Chivo", sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
 .container .box {
   width: 48px;
   height: 48px;
-  background-color: #606060;
+  background-color: rgb(96, 96, 96);
   display: flex;
   margin-bottom: 24px;
   justify-content: space-around;
@@ -44,4 +44,4 @@ body {
   z-index: -1;
   transition-duration: 200ms;
   opacity: 0;
-}
+}/*# sourceMappingURL=style.css.map */

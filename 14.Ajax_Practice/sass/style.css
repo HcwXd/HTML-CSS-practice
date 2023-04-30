@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  padding: 30px;
+}
+
+.todolist {
+  display: inline-block;
+  padding: 20px;
+  border: solid 3px black;
+}
+.todolist ul {
+  padding: 0px;
+}
+.todolist li {
+  list-style: none;
+  width: 300px;
+  padding: 5px;
+}
+
+.done:before {
+  content: " ✓ ";
+  color: red;
+}/*# sourceMappingURL=style.css.map */

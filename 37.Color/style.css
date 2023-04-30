@@ -13,15 +13,12 @@ body {
 .pin {
   width: 0;
   height: 0;
-  -webkit-animation: pin1 2s infinite;
-          animation: pin1 2s infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation: pin1 2s infinite;
+  animation-timing-function: linear;
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .a {
@@ -56,25 +53,11 @@ body {
   z-index: 60;
 }
 
-@-webkit-keyframes pin1 {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 @keyframes pin1 {
   0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

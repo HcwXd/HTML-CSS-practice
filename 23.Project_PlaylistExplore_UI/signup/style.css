@@ -1,15 +1,17 @@
 * {
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+}
 
 html, body {
-  background-color: #0f0f0f;
+  background-color: rgb(15, 15, 15);
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   position: relative;
-  color: #3c3c3c; }
+  color: rgb(60, 60, 60);
+}
 
 .nav_wrap {
   top: 0px;
@@ -18,24 +20,29 @@ html, body {
   position: fixed;
   color: black;
   border-bottom: 1px solid black;
-  background-color: #f2f2f2;
+  background-color: rgb(242, 242, 242);
   z-index: 3;
-  justify-content: space-between; }
-  .nav_wrap .right_nav {
-    display: flex; }
-  .nav_wrap .left_nav {
-    display: flex; }
-  .nav_wrap .nav_item {
-    padding: 12px;
-    margin-left: 12px; }
-    .nav_wrap .nav_item:hover {
-      opacity: 0.7;
-      cursor: pointer; }
+  justify-content: space-between;
+}
+.nav_wrap .right_nav {
+  display: flex;
+}
+.nav_wrap .left_nav {
+  display: flex;
+}
+.nav_wrap .nav_item {
+  padding: 12px;
+  margin-left: 12px;
+}
+.nav_wrap .nav_item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
 
 .content_wrap {
   width: 50%;
-  background-color: #1a1a1a;
-  color: #bebebe;
+  background-color: rgb(26, 26, 26);
+  color: rgb(190, 190, 190);
   margin-top: 5%;
   margin-left: 50%;
   transform: translateX(-50%);
@@ -43,69 +50,78 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
-  .content_wrap .field {
-    width: 90%;
-    padding: 15px; }
-    .content_wrap .field hr {
-      width: 95%;
-      padding: 0px;
-      margin-left: 0px;
-      margin-right: 0px; }
-    .content_wrap .field .input_row {
-      margin-top: 10px;
-      align-items: center;
-      text-decoration: none;
-      border: 2px solid #bebebe;
-      background-color: #282828;
-      color: #bebebe;
-      width: 90%;
-      height: 35px;
-      line-height: 35px;
-      font-size: 12px;
-      border-radius: 5px;
-      padding: 0px 15px; }
-      .content_wrap .field .input_row:focus {
-        outline-color: #2c2d30;
-        outline-width: 0px;
-        box-shadow: none;
-        color: #bebebe; }
-    .content_wrap .field textarea {
-      margin-top: 10px;
-      text-decoration: none;
-      border: 2px solid #bebebe;
-      background-color: #282828;
-      color: #bebebe;
-      width: 90%;
-      height: auto;
-      font-size: 12px;
-      border-radius: 5px;
-      padding: 0px 15px; }
-      .content_wrap .field textarea:focus {
-        width: 90%;
-        outline-color: #2c2d30;
-        outline-width: 0px;
-        box-shadow: none;
-        color: #bebebe; }
-  .content_wrap .signup_btn {
-    width: 90%;
-    text-align: center;
-    border: 2px solid #bebebe;
-    border-radius: 5px;
-    padding: 15px;
-    cursor: pointer; }
-    .content_wrap .signup_btn:hover {
-      opacity: 0.9; }
-  .content_wrap .fb_signup_btn {
-    margin-top: 15px;
-    width: 90%;
-    text-align: center;
-    background-color: #29487d;
-    border: 2px solid #bebebe;
-    border-radius: 5px;
-    padding: 15px;
-    cursor: pointer; }
-    .content_wrap .fb_signup_btn:hover {
-      opacity: 0.9; }
-
-/*# sourceMappingURL=style.css.map */
+  align-items: center;
+}
+.content_wrap .field {
+  width: 90%;
+  padding: 15px;
+}
+.content_wrap .field hr {
+  width: 95%;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.content_wrap .field .input_row {
+  margin-top: 10px;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid rgb(190, 190, 190);
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  width: 90%;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+.content_wrap .field .input_row:focus {
+  outline-color: rgb(44, 45, 48);
+  outline-width: 0px;
+  box-shadow: none;
+  color: rgb(190, 190, 190);
+}
+.content_wrap .field textarea {
+  margin-top: 10px;
+  text-decoration: none;
+  border: 2px solid rgb(190, 190, 190);
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  width: 90%;
+  height: auto;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+.content_wrap .field textarea:focus {
+  width: 90%;
+  outline-color: rgb(44, 45, 48);
+  outline-width: 0px;
+  box-shadow: none;
+  color: rgb(190, 190, 190);
+}
+.content_wrap .signup_btn {
+  width: 90%;
+  text-align: center;
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.content_wrap .signup_btn:hover {
+  opacity: 0.9;
+}
+.content_wrap .fb_signup_btn {
+  margin-top: 15px;
+  width: 90%;
+  text-align: center;
+  background-color: rgb(41, 72, 125);
+  border: 2px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.content_wrap .fb_signup_btn:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=style.css.map */

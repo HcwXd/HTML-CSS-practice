@@ -1,15 +1,17 @@
 * {
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+}
 
 html, body {
-  background-color: #0f0f0f;
+  background-color: rgb(15, 15, 15);
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   position: relative;
-  color: #3c3c3c; }
+  color: rgb(60, 60, 60);
+}
 
 .nav_wrap {
   top: 0px;
@@ -18,198 +20,229 @@ html, body {
   position: fixed;
   color: black;
   border-bottom: 1px solid black;
-  background-color: #f2f2f2;
+  background-color: rgb(242, 242, 242);
   z-index: 3;
-  justify-content: space-between; }
-  .nav_wrap .right_nav {
-    display: flex; }
-  .nav_wrap .left_nav {
-    display: flex; }
-  .nav_wrap .nav_item {
-    padding: 12px;
-    margin-left: 12px; }
-    .nav_wrap .nav_item:hover {
-      opacity: 0.7;
-      cursor: pointer; }
+  justify-content: space-between;
+}
+.nav_wrap .right_nav {
+  display: flex;
+}
+.nav_wrap .left_nav {
+  display: flex;
+}
+.nav_wrap .nav_item {
+  padding: 12px;
+  margin-left: 12px;
+}
+.nav_wrap .nav_item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
 
 .content_wrap {
   width: 95%;
-  background-color: #1a1a1a;
-  color: #bebebe;
+  background-color: rgb(26, 26, 26);
+  color: rgb(190, 190, 190);
   margin-top: 5%;
   margin-left: 50%;
   transform: translateX(-50%);
   display: block;
   position: relative;
   justify-content: space-between;
-  height: 100%; }
-  .content_wrap .search_area_wrap {
-    width: 100%;
-    display: flex;
-    justify-content: space-around; }
-    .content_wrap .search_area_wrap .search_area {
-      margin-top: 35px;
-      margin-bottom: 35px;
-      display: flex;
-      width: 70%; }
-      .content_wrap .search_area_wrap .search_area .search_input {
-        align-items: center;
-        text-decoration: none;
-        border: 2px solid #bebebe;
-        border-right: 1px solid #bebebe;
-        background-color: #282828;
-        color: #bebebe;
-        width: 85%;
-        height: 45px;
-        line-height: 45px;
-        font-size: 12px;
-        border-radius: 5px 0 0 5px;
-        padding: 0px 15px; }
-        .content_wrap .search_area_wrap .search_area .search_input:focus {
-          outline-color: #2c2d30;
-          outline-width: 0px;
-          box-shadow: none;
-          color: #bebebe; }
-      .content_wrap .search_area_wrap .search_area .search_btn {
-        align-items: center;
-        text-align: center;
-        height: 45px;
-        border: 2px solid #bebebe;
-        border-left: 1px solid #bebebe;
-        line-height: 45px;
-        width: 15%;
-        font-size: 12px;
-        background-color: #282828;
-        color: #bebebe;
-        font-size: 12px;
-        font-weight: 500;
-        border-radius: 0 5px 5px 0;
-        cursor: pointer; }
-        .content_wrap .search_area_wrap .search_area .search_btn:hover {
-          opacity: 0.9; }
-  .content_wrap .publishing_wrap {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; }
-    .content_wrap .publishing_wrap .search_result_wrap {
-      width: 30%;
-      margin-left: 15px; }
-      .content_wrap .publishing_wrap .search_result_wrap .pick_des {
-        border: 1px solid #bebebe;
-        padding: 15px; }
-      .content_wrap .publishing_wrap .search_result_wrap .song_info {
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid #bebebe;
-        border-top: 0px solid #bebebe;
-        padding: 5px 0px;
-        align-items: center; }
-        .content_wrap .publishing_wrap .search_result_wrap .song_info:active {
-          border: 1px solid yellow; }
-        .content_wrap .publishing_wrap .search_result_wrap .song_info .song_name {
-          display: inline-block;
-          width: 85%;
-          overflow: hidden;
-          padding-left: 15px;
-          padding-right: 15px;
-          height: 48px; }
-        .content_wrap .publishing_wrap .search_result_wrap .song_info .song_cover {
-          width: 70px;
-          height: 70px;
-          display: inline-block;
-          padding-left: 15px; }
-    .content_wrap .publishing_wrap .add_des_wrap {
-      width: 30%;
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-      .content_wrap .publishing_wrap .add_des_wrap .des_input {
-        align-items: center;
-        text-decoration: none;
-        border: 2px solid #bebebe;
-        border-right: 1px solid #bebebe;
-        background-color: #282828;
-        color: #bebebe;
-        width: 85%;
-        font-size: 18px;
-        line-height: 18px;
-        border-radius: 5px;
-        padding: 15px 15px; }
-        .content_wrap .publishing_wrap .add_des_wrap .des_input:focus {
-          word-wrap: break-all;
-          outline-color: #2c2d30;
-          outline-width: 0px;
-          box-shadow: none;
-          color: #bebebe; }
-      .content_wrap .publishing_wrap .add_des_wrap .add_btn {
-        margin-top: 15px;
-        align-items: center;
-        text-align: center;
-        height: 45px;
-        border: 2px solid #bebebe;
-        border-left: 1px solid #bebebe;
-        line-height: 45px;
-        width: 90%;
-        font-size: 12px;
-        background-color: #282828;
-        color: #bebebe;
-        font-size: 12px;
-        font-weight: 500;
-        border-radius: 5px;
-        cursor: pointer; }
-        .content_wrap .publishing_wrap .add_des_wrap .add_btn:hover {
-          opacity: 0.9; }
-    .content_wrap .publishing_wrap .playlist_status_wrap {
-      margin-right: 15px;
-      width: 30%; }
-      .content_wrap .publishing_wrap .playlist_status_wrap .pick_des {
-        border: 1px solid #bebebe;
-        padding: 15px; }
-      .content_wrap .publishing_wrap .playlist_status_wrap .song_info {
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid #bebebe;
-        border-top: 0px solid #bebebe;
-        padding: 5px 0px;
-        align-items: center; }
-        .content_wrap .publishing_wrap .playlist_status_wrap .song_info:active {
-          border: 1px solid yellow; }
-        .content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_name {
-          display: inline-block;
-          width: 85%;
-          overflow: hidden;
-          padding-left: 15px;
-          padding-right: 15px;
-          height: 48px; }
-        .content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_cover {
-          width: 70px;
-          height: 70px;
-          display: inline-block;
-          padding-left: 15px;
-          white-space: nowrap; }
-        .content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_edit {
-          display: inline-block;
-          width: 10%;
-          white-space: nowrap;
-          cursor: pointer; }
-      .content_wrap .publishing_wrap .playlist_status_wrap .publish_btn {
-        margin-top: 15px;
-        align-items: center;
-        text-align: center;
-        height: 45px;
-        border: 2px solid #bebebe;
-        border-left: 1px solid #bebebe;
-        line-height: 45px;
-        width: 100%;
-        font-size: 12px;
-        background-color: #282828;
-        color: #bebebe;
-        font-size: 12px;
-        font-weight: 500;
-        border-radius: 5px;
-        cursor: pointer; }
-        .content_wrap .publishing_wrap .playlist_status_wrap .publish_btn:hover {
-          opacity: 0.9; }
-
-/*# sourceMappingURL=style.css.map */
+  height: 100%;
+}
+.content_wrap .search_area_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.content_wrap .search_area_wrap .search_area {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: flex;
+  width: 70%;
+}
+.content_wrap .search_area_wrap .search_area .search_input {
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid rgb(190, 190, 190);
+  border-right: 1px solid rgb(190, 190, 190);
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  width: 85%;
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+  border-radius: 5px 0 0 5px;
+  padding: 0px 15px;
+}
+.content_wrap .search_area_wrap .search_area .search_input:focus {
+  outline-color: rgb(44, 45, 48);
+  outline-width: 0px;
+  box-shadow: none;
+  color: rgb(190, 190, 190);
+}
+.content_wrap .search_area_wrap .search_area .search_btn {
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  border: 2px solid rgb(190, 190, 190);
+  border-left: 1px solid rgb(190, 190, 190);
+  line-height: 45px;
+  width: 15%;
+  font-size: 12px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.content_wrap .search_area_wrap .search_area .search_btn:hover {
+  opacity: 0.9;
+}
+.content_wrap .publishing_wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.content_wrap .publishing_wrap .search_result_wrap {
+  width: 30%;
+  margin-left: 15px;
+}
+.content_wrap .publishing_wrap .search_result_wrap .pick_des {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 15px;
+}
+.content_wrap .publishing_wrap .search_result_wrap .song_info {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(190, 190, 190);
+  border-top: 0px solid rgb(190, 190, 190);
+  padding: 5px 0px;
+  align-items: center;
+}
+.content_wrap .publishing_wrap .search_result_wrap .song_info:active {
+  border: 1px solid yellow;
+}
+.content_wrap .publishing_wrap .search_result_wrap .song_info .song_name {
+  display: inline-block;
+  width: 85%;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 48px;
+}
+.content_wrap .publishing_wrap .search_result_wrap .song_info .song_cover {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  padding-left: 15px;
+}
+.content_wrap .publishing_wrap .add_des_wrap {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content_wrap .publishing_wrap .add_des_wrap .des_input {
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid rgb(190, 190, 190);
+  border-right: 1px solid rgb(190, 190, 190);
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  width: 85%;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+.content_wrap .publishing_wrap .add_des_wrap .des_input:focus {
+  word-wrap: break-all;
+  outline-color: rgb(44, 45, 48);
+  outline-width: 0px;
+  box-shadow: none;
+  color: rgb(190, 190, 190);
+}
+.content_wrap .publishing_wrap .add_des_wrap .add_btn {
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  border: 2px solid rgb(190, 190, 190);
+  border-left: 1px solid rgb(190, 190, 190);
+  line-height: 45px;
+  width: 90%;
+  font-size: 12px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content_wrap .publishing_wrap .add_des_wrap .add_btn:hover {
+  opacity: 0.9;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap {
+  margin-right: 15px;
+  width: 30%;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .pick_des {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 15px;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .song_info {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(190, 190, 190);
+  border-top: 0px solid rgb(190, 190, 190);
+  padding: 5px 0px;
+  align-items: center;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .song_info:active {
+  border: 1px solid yellow;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_name {
+  display: inline-block;
+  width: 85%;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 48px;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_cover {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  padding-left: 15px;
+  white-space: nowrap;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .song_info .song_edit {
+  display: inline-block;
+  width: 10%;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .publish_btn {
+  margin-top: 15px;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  border: 2px solid rgb(190, 190, 190);
+  border-left: 1px solid rgb(190, 190, 190);
+  line-height: 45px;
+  width: 100%;
+  font-size: 12px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content_wrap .publishing_wrap .playlist_status_wrap .publish_btn:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+* {
+  border: solid 1px black;
+  background-color: #666;
+}
+
+div {
+  padding: 5px;
+  margin: 5px;
+}
+div::before {
+  content: "-" attr(data-size) "-";
+}
+div::after {
+  content: "!" attr(data-color) "!";
+}
+
+div[data-size=small] {
+  width: 150px;
+  height: 50px;
+}
+
+div[data-size=medium] {
+  width: 300px;
+  height: 100px;
+}
+
+div[data-size=large] {
+  width: 450px;
+  height: 150px;
+}
+
+div[data-color=red] {
+  border: solid 4px red;
+}
+
+div[data-color=blue] {
+  border: solid 4px blue;
+}
+
+div[data-color=green] {
+  border: solid 4px green;
+}/*# sourceMappingURL=style.css.map */

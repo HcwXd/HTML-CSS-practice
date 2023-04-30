@@ -11,20 +11,13 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform: translate(-50%, -50%);
   display: flex;
 }
-
 .container .box {
   position: absolute;
   left: 50%;
   top: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-style: solid;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
