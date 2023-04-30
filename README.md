@@ -232,4 +232,10 @@
 
 > `Html` `Css`
 >
-> Demo: [39.Zime-Zones](https://hcwxd.github.io/HTML-CSS-practice/39.Time-Zones/index.html)
+> Demo: [39.Time-Zones](https://hcwxd.github.io/HTML-CSS-practice/39.Time-Zones/index.html)
+>
+> ### 錯視滑動圖片
+
+> `Html` `Css`
+>
+> Demo: [40.Sliding-Image-Track](https://hcwxd.github.io/HTML-CSS-practice/40.Sliding-Image-Track/index.html)
