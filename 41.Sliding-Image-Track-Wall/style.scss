@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+  background-image: url('./background.png');
+  background-repeat: repeat;
+}
+
+#image-track {
+  .row {
+    display: flex;
+    gap: 1vmin;
+    .image {
+      width: 10vmin;
+      height: 14vmin;
+      object-fit: cover;
+      object-position: 100% center;
+    }
+  }
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+  user-select: none; /* -- Prevent image highlighting -- */
+}
+
+.credit {
+  font-size: 12px;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+  }
+}
