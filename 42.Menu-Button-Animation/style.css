@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+html {
+  font-size: 75%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+  color: floralwhite;
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 5rem;
+  cursor: pointer;
+  transition: ease-in;
+  display: flex;
+  align-items: center;
+}
+.container:hover .label {
+  opacity: 0.4;
+  transform: translateX(-1.5rem);
+}
+.container:hover .icon_wrap .outer_icon {
+  transform: rotate(45deg) scale(2, 2);
+  opacity: 0.2;
+}
+.container:hover .icon_wrap .inner_icon {
+  transform: rotate(45deg) scale(0.15, 0.15);
+  opacity: 1;
+  background-color: white;
+}
+.container .label {
+  opacity: 1;
+  transition-property: transform opacity;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+.container .icon_wrap {
+  transform: translate(1rem, -1rem);
+}
+.container .icon_wrap .inner_icon {
+  transform: rotate(45deg);
+  background-color: transparent;
+  opacity: 1;
+  border: 0.1rem solid #fff;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  transition-property: transform background-color opacity;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+.container .icon_wrap .outer_icon {
+  opacity: 1;
+  transform: rotate(45deg);
+  border: 0.1rem solid #fff;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  transition-property: transform background-color opacity;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+.credit {
+  font-size: 12px;
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.credit a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=style.css.map */
